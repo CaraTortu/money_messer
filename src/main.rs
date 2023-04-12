@@ -27,6 +27,7 @@ fn input(prompt: &str) -> f64 {
     }
 }
 
+// My own alrithm to evenly spread out percentages in a sine wave form
 fn get_percentages(n: f64) -> Vec<f64> {
     fn coor(x: f64) -> f64 {
         (x * 2. * PI).cos() + 1.
